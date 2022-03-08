@@ -1,0 +1,461 @@
+@font-face {
+    src: url("../fonts/Muller-Regular.ttf");
+    font-family: Muller-Regular;
+}
+
+@font-face {
+    src: url("../fonts/Muller-Black.ttf");
+    font-family: Muller-Black;
+}
+
+@font-face {
+    src: url("../fonts/Muller-Bold.ttf");
+    font-family: Muller-Bold;
+}
+
+@font-face {
+    src: url("../fonts/Muller-ExtraBold.ttf");
+    font-family: Muller-ExtraBold;
+}
+
+@font-face {
+    src: url("../fonts/Muller-Medium.ttf");
+    font-family: Muller-Medium;
+}
+
+#header .container .header-menu .header-menu-item {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Muller-Regular, sans-serif;
+    color: rgb(164, 107, 0);
+    line-height: 1.2;
+    -moz-transform: matrix(1.00031719427891, 0, 0, 1, 0, 0);
+    -webkit-transform: matrix(1.00031719427891, 0, 0, 1, 0, 0);
+    -ms-transform: matrix(1.00031719427891, 0, 0, 1, 0, 0);
+    margin-left: 28px;
+    margin-right: 28px;
+}
+
+#header .container .header-menu {
+    margin-left: 249px;
+    margin-right: 270px;
+}
+
+.container .logo .header-text {
+    font-size: 24px;
+    font-family: Muller-Black;
+    color: rgb(255, 196, 104);
+    text-transform: uppercase;
+    line-height: 1.2;
+    max-width: 84px;
+    margin-left: 8px;
+}
+
+.container .logo {
+    align-items: center;
+}
+
+#header .container {
+    align-items: center;
+    padding: 16px 0;
+}
+
+#header {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 3px 13.8px 1.2px rgba(152, 152, 152, 0.2);
+}
+
+#main .container {
+    padding-top: 132px;
+}
+
+#main .container .main-block-description .main-card .main-block-text {
+    margin-left: 16px;
+}
+
+#main .container .main-block-description .main-tile {
+    font-size: 45px;
+    font-family: Muller-ExtraBold, sans-serif;
+    color: rgb(185, 145, 80);
+    font-weight: bold;
+    line-height: 1.222;
+    display: block;
+    margin-bottom: 60px;
+
+}
+
+#main .container .main-block-description .main-tile span {
+    color: #ffaf18;
+}
+
+#main .container .row .main-block-description {
+    max-width: 670px;
+}
+
+#main .container .main-block-description .main-card .main-block-text .main-subtitle {
+    font-size: 16px;
+    font-family: Muller-ExtraBold, sans-serif;
+    color: rgb(255, 175, 24);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#main .container .main-block-description .main-card .main-block-text .main-text {
+    font-size: 16px;
+    font-family: Muller-Regular, sans-serif;
+    color: rgb(185, 145, 80);
+    line-height: 1;
+    max-width: 227px;
+    margin-top: 10px;
+}
+
+#main .container .main-block-description .block-two {
+    margin-top: 48px;
+}
+
+#main .container .row .main-block-img {
+    text-align: right;
+}
+
+#main .container .main-block-description .main-action {
+    margin-top: 60px;
+}
+
+#main .container .main-block-description .main-action .main-btn {
+    background-color: rgb(255, 175, 24);
+    font-size: 16px;
+    font-family: Muller-Bold, sans-serif;
+    color: rgb(56, 36, 0);
+    font-weight: bold;
+    border: none;
+    width: 224px;
+    height: 60px;
+    cursor: pointer;
+
+
+}
+
+#content {
+    padding-top: 160px;
+}
+
+#content .container .content-title {
+    font-size: 35px;
+    font-family: Muller-Bold, sans-serif;
+    color: rgb(189, 152, 92);
+    font-weight: bold;
+    text-align: center;
+}
+
+#content .container .row {
+    margin-top: 48px;
+}
+
+#content .container .row .content-block .content-subtitle {
+    font-size: 18px;
+    font-family: Muller-Bold, sans-serif;
+    color: rgb(56, 36, 0);
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#content .container .row .content-block .content-text {
+    margin-top: 14px;
+    font-size: 14px;
+    font-family: Muller-Regular, sans-serif;
+    color: rgb(24, 26, 26);
+    line-height: 1.286;
+    text-align: center;
+    height: 52px;
+}
+
+#content .container .row .content-block {
+    max-width: 282px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 3px 13.8px 1.2px rgba(152, 152, 152, 0.2);
+    padding: 27px 20px 15px 20px;
+    margin: 12px;
+}
+
+#content .container .row .content-block img {
+    max-width: 240px;
+}
+
+.content-action {
+    margin-top: 15px;
+}
+
+#content .container .row .content-action .content-btn {
+    background-color: rgb(255, 175, 24);
+    width: 242px;
+    height: 50px;
+    font-size: 16px;
+    font-family: Muller-Bold, sans-serif;
+    color: rgb(2, 3, 3);
+    font-weight: bold;
+    border: none;
+}
+
+#order {
+    padding: 228px;
+}
+
+#order .container {
+    position: relative;
+}
+
+#order .container .row #order-block-text {
+    margin-right: 122px;
+    max-width: 384px;
+}
+
+#order .container .row #order-block-text .order-block-title {
+    font-size: 35px;
+    font-family: Muller-ExtraBold, sans-serif;
+    color: rgb(255, 175, 24);
+    font-weight: bold;
+    line-height: 1.286;
+    max-width: 367px;
+}
+
+#order .container .row #order-block-text .order-block-title span {
+    color: #b99150;
+}
+
+#order .container .row #order-block-text .order-block-description {
+    font-size: 16px;
+    font-family: Muller-Regular, sans-serif;
+    color: rgb(185, 145, 80);
+    line-height: 1.5;
+    max-width: 384px;
+    margin-top: 65px;
+
+}
+
+#order .container .row #order-form form div input {
+    border-width: 1px;
+    border-color: rgb(185, 145, 80);
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    outline: none;
+    padding: 23px 22px;
+    box-sizing: border-box;
+    width: 330px;
+    height: 60px;
+    margin-bottom: 24px;
+}
+
+#order .container .row #order-form {
+    max-width: 330px;
+}
+
+#order .container .row #order-form form div input::placeholder {
+    font-size: 18px;
+    font-family: Muller-Regular, sans-serif;
+    color: rgb(203, 168, 110);
+}
+
+#order .container .row #order-form form .form-action .order-btn {
+    background-color: rgb(255, 175, 24);
+    width: 330px;
+    height: 60px;
+    font-size: 16px;
+    font-family: Muller-Bold, sans-serif;
+    color: rgb(56, 36, 0);
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    outline: none;
+}
+
+#order .container .row .col-4 {
+    padding: 0;
+}
+
+#order .container .row #order-img img {
+    position: relative;
+    right: -78px;
+    top: 40px;
+}
+
+#footer {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 13.8px 1.2px rgba(152, 152, 152, 0.2);
+}
+
+#footer .container {
+    padding: 16px 0;
+}
+
+#footer .container .footer-text {
+    font-size: 12px;
+    font-family: Muller-Regular, sans-serif;
+    color: rgb(186, 179, 179);
+    margin-left: 358px;
+}
+
+element.style {
+}
+
+#main .container .main-block-description .main-action .main-btn {
+    background-color: rgb(255, 175, 24);
+    font-size: 16px;
+    font-family: Muller-Bold, sans-serif;
+    color: rgb(56, 36, 0);
+    font-weight: bold;
+    border: none;
+    width: 224px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.hvr-shutter-in-horizontal:hover, .hvr-shutter-in-horizontal:focus, .hvr-shutter-in-horizontal:active {
+    color: black !important;
+}
+
+.white-popup {
+    position: relative;
+    background: #f10f0f;
+    padding: 20px;
+    width: auto;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.lds-spinner {
+    color: wheat;
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.lds-spinner div {
+    transform-origin: 40px 40px;
+    animation: lds-spinner 1.2s linear infinite;
+}
+
+.lds-spinner div:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 37px;
+    width: 6px;
+    height: 18px;
+    border-radius: 20%;
+    background: rgb(255, 175, 24);
+}
+
+.lds-spinner div:nth-child(1) {
+    transform: rotate(0deg);
+    animation-delay: -1.1s;
+}
+
+.lds-spinner div:nth-child(2) {
+    transform: rotate(30deg);
+    animation-delay: -1s;
+}
+
+.lds-spinner div:nth-child(3) {
+    transform: rotate(60deg);
+    animation-delay: -0.9s;
+}
+
+.lds-spinner div:nth-child(4) {
+    transform: rotate(90deg);
+    animation-delay: -0.8s;
+}
+
+.lds-spinner div:nth-child(5) {
+    transform: rotate(120deg);
+    animation-delay: -0.7s;
+}
+
+.lds-spinner div:nth-child(6) {
+    transform: rotate(150deg);
+    animation-delay: -0.6s;
+}
+
+.lds-spinner div:nth-child(7) {
+    transform: rotate(180deg);
+    animation-delay: -0.5s;
+}
+
+.lds-spinner div:nth-child(8) {
+    transform: rotate(210deg);
+    animation-delay: -0.4s;
+}
+
+.lds-spinner div:nth-child(9) {
+    transform: rotate(240deg);
+    animation-delay: -0.3s;
+}
+
+.lds-spinner div:nth-child(10) {
+    transform: rotate(270deg);
+    animation-delay: -0.2s;
+}
+
+.lds-spinner div:nth-child(11) {
+    transform: rotate(300deg);
+    animation-delay: -0.1s;
+}
+
+.lds-spinner div:nth-child(12) {
+    transform: rotate(330deg);
+    animation-delay: 0s;
+}
+
+@keyframes lds-spinner {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+#loader {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    top: 0;
+}
+form .error-input {
+    font-size: 15px;
+    color: red;
+    display: none;
+    position: relative;
+    top: -20px;
+}
+#order-form {
+    position: relative;
+}
+#order .container .row #order-form #test-popup.popup {
+    height: 312px;
+    background: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    display: none;
+    border: 18px solid rgb(185, 145, 80);
+}
+#test-popup.popup span {
+    color: #FFAF18FF;
+    font-size: 16px;
+    font-family: Muller-Bold, sans-serif;
+    justify-content: center;
+    align-items: center;
+    max-width: 203px;
+
+}
+#test-popup.popup div {
+    position: relative;
+    top: -147px;
+    right: -50px;
+}
